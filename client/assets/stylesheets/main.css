@@ -1,0 +1,164 @@
+/*===========================*
+ * Main file scss
+ ===========================*/
+/*===========================*
+ *  Application base settings
+ ===========================*/
+* {
+  margin: 0;
+  padding: 0; }
+
+html,
+body {
+  background-color: #EEF2F5; }
+
+.grid {
+  width: 1000px;
+  margin: 0 auto; }
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px; }
+
+/*============================*
+ * Typography for application
+ ============================*/
+/*========================*
+ * Component of research
+ ========================*/
+.search-bar {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: .5em 0;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eeeeee; }
+
+.search-bar__input {
+  float: left;
+  width: 830px;
+  height: 50px;
+  text-indent: 16px;
+  color: #777777;
+  border: none;
+  border-radius: 3px 0 0 3px;
+  background-color: #EEF2F5; }
+
+.search-bar__button {
+  display: inline-block;
+  width: 70px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #5DB8F1;
+  border: none;
+  border-radius: 0 3px 3px 0; }
+
+/**
+ * Component Repository
+ */
+.repository {
+  float: left;
+  width: 200px;
+  height: 150px;
+  margin: 10px 32px 5px 0;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+  border-radius: 3px; }
+
+.repository:last-child {
+  margin-right: 0; }
+
+.repository-org {
+  display: inline-block;
+  width: 90%;
+  padding: 0.3em 0.5em;
+  margin: 0 0 10px 1%; }
+
+.repository-org__icon {
+  float: left;
+  width: 20px;
+  height: 20px; }
+
+.repository-org__title {
+  display: inline-block;
+  margin: 0 0 0 16px;
+  font: normal 0.7em Helvetica, Arial, Verdana;
+  color: #ADB5C2;
+  text-transform: uppercase; }
+
+.repository__name {
+  float: left;
+  margin: 0 0 0 16px;
+  font: normal 0.7em Helvetica, Arial, Verdana;
+  color: #57637B; }
+
+.repository-commit {
+  display: inline-block;
+  width: 90%;
+  height: 50px;
+  margin: 10px 5%;
+  border: 1px solid #eeeeee;
+  border-radius: 3px; }
+
+.repository-commit p {
+  padding: 0 5px;
+  font: normal 0.7em Helvetica, Arial, Verdana;
+  color: #57637B; }
+
+.repository-commit__title {
+  display: block;
+  margin: 5px;
+  font: normal 0.5em Helvetica, Arial, Verdana;
+  color: #ADB5C2; }
+
+.repository-footer {
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+  background-color: #FAFBFD;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #DBDEE3;
+  border-radius: 0 0 3px 3px;
+  list-style: none; }
+
+.repository-footer li {
+  float: left;
+  width: calc(96%/3);
+  width: -webkit-calc(96%/3);
+  width: -moz-calc(96%/3);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-right: 1px solid #dedede; }
+
+.repository-footer li:last-child {
+  border: none; }
+
+.repository-footer__label {
+  display: block;
+  margin: 2px 0 0  0;
+  font: normal 0.5em Helvetica, Arial, Verdana;
+  color: #999999; }
+
+.repository-footer__data {
+  display: inline-block;
+  font: 700 0.55em Helvetica, Arial, Verdana;
+  color: #57637B; }
+
+/*==============================
+  Main Header element
+================================*/
+.header {
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #344563; }
+
+.header-title {
+  display: inline-block;
+  font: normal 1.5em Helvetica, Arial, Verdana;
+  color: #ffffff; }

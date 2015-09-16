@@ -1,0 +1,15 @@
+/*==============================
+  Main Header element
+================================*/
+.header {
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #344563;
+}
+.header-title {
+  display: inline-block;
+  font: normal 1.5em $base_typography;
+  color: #ffffff;
+}
